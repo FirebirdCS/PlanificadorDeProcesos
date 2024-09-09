@@ -1,0 +1,9 @@
+C:\git\UMG\6to. Semestre\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\bin\Debug\PlanificadorDeProcesos-Grupo#5.exe.config
+C:\git\UMG\6to. Semestre\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\bin\Debug\PlanificadorDeProcesos-Grupo#5.exe
+C:\git\UMG\6to. Semestre\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\bin\Debug\PlanificadorDeProcesos-Grupo#5.pdb
+C:\git\UMG\6to. Semestre\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\PlanificadorDeProcesos-Grupo#5.csproj.AssemblyReference.cache
+C:\git\UMG\6to. Semestre\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\PlanificadorDeProcesos_Grupo_5.Properties.Resources.resources
+C:\git\UMG\6to. Semestre\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\PlanificadorDeProcesos-Grupo#5.csproj.GenerateResource.cache
+C:\git\UMG\6to. Semestre\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\PlanificadorDeProcesos-Grupo#5.csproj.CoreCompileInputs.cache
+C:\git\UMG\6to. Semestre\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\PlanificadorDeProcesos-Grupo#5.exe
+C:\git\UMG\6to. Semestre\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\PlanificadorDeProcesos-Grupo#5.pdb
