@@ -28,13 +28,162 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
+            this.dgvProceso = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvFisica = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvVirtual = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvCPU = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnActualizar = new System.Windows.Forms.Button();
+            this.btnDetener = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // dataGridView2
+            // 
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dgvProceso,
+            this.dgvID,
+            this.dgvFisica,
+            this.dgvVirtual,
+            this.dgvCPU});
+            this.dataGridView2.Location = new System.Drawing.Point(10, 63);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.RowHeadersWidth = 51;
+            this.dataGridView2.RowTemplate.Height = 24;
+            this.dataGridView2.Size = new System.Drawing.Size(1367, 567);
+            this.dataGridView2.TabIndex = 1;
+            // 
+            // dgvProceso
+            // 
+            this.dgvProceso.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dgvProceso.HeaderText = "Proceso";
+            this.dgvProceso.MinimumWidth = 6;
+            this.dgvProceso.Name = "dgvProceso";
+            // 
+            // dgvID
+            // 
+            this.dgvID.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dgvID.HeaderText = "ID";
+            this.dgvID.MinimumWidth = 6;
+            this.dgvID.Name = "dgvID";
+            // 
+            // dgvFisica
+            // 
+            this.dgvFisica.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dgvFisica.HeaderText = "Memoria Física";
+            this.dgvFisica.MinimumWidth = 6;
+            this.dgvFisica.Name = "dgvFisica";
+            // 
+            // dgvVirtual
+            // 
+            this.dgvVirtual.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dgvVirtual.HeaderText = "Memoria Virtual";
+            this.dgvVirtual.MinimumWidth = 6;
+            this.dgvVirtual.Name = "dgvVirtual";
+            // 
+            // dgvCPU
+            // 
+            this.dgvCPU.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.dgvCPU.HeaderText = "CPU";
+            this.dgvCPU.MinimumWidth = 6;
+            this.dgvCPU.Name = "dgvCPU";
+            // 
+            // btnActualizar
+            // 
+            this.btnActualizar.Location = new System.Drawing.Point(37, 659);
+            this.btnActualizar.Name = "btnActualizar";
+            this.btnActualizar.Size = new System.Drawing.Size(314, 67);
+            this.btnActualizar.TabIndex = 2;
+            this.btnActualizar.Text = "Actualizar";
+            this.btnActualizar.UseVisualStyleBackColor = true;
+            // 
+            // btnDetener
+            // 
+            this.btnDetener.Location = new System.Drawing.Point(395, 659);
+            this.btnDetener.Name = "btnDetener";
+            this.btnDetener.Size = new System.Drawing.Size(314, 67);
+            this.btnDetener.TabIndex = 3;
+            this.btnDetener.Text = "Detener";
+            this.btnDetener.UseVisualStyleBackColor = true;
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(1029, 659);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(314, 67);
+            this.btnSalir.TabIndex = 4;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(1220, 733);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(18, 20);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "0";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(1050, 729);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(164, 20);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Nombre del proceso";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(76, 748);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(44, 16);
+            this.label3.TabIndex = 7;
+            this.label3.Text = "label3";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(1391, 784);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.btnDetener);
+            this.Controls.Add(this.btnActualizar);
+            this.Controls.Add(this.dataGridView2);
+            this.Name = "Form1";
+            this.Text = "Administrador de Tareas";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.DataGridView dataGridView2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvProceso;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvFisica;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvVirtual;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dgvCPU;
+        private System.Windows.Forms.Button btnActualizar;
+        private System.Windows.Forms.Button btnDetener;
+        private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
     }
 }
 
