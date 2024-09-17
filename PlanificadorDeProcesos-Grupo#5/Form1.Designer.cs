@@ -53,7 +53,7 @@
             this.dgvVirtual,
             this.dgvCPU});
             this.dataGridView2.Location = new System.Drawing.Point(8, 51);
-            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
@@ -99,7 +99,7 @@
             // btnActualizar
             // 
             this.btnActualizar.Location = new System.Drawing.Point(28, 535);
-            this.btnActualizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnActualizar.Margin = new System.Windows.Forms.Padding(2);
             this.btnActualizar.Name = "btnActualizar";
             this.btnActualizar.Size = new System.Drawing.Size(236, 54);
             this.btnActualizar.TabIndex = 2;
@@ -110,7 +110,7 @@
             // btnDetener
             // 
             this.btnDetener.Location = new System.Drawing.Point(296, 535);
-            this.btnDetener.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnDetener.Margin = new System.Windows.Forms.Padding(2);
             this.btnDetener.Name = "btnDetener";
             this.btnDetener.Size = new System.Drawing.Size(236, 54);
             this.btnDetener.TabIndex = 3;
@@ -121,12 +121,13 @@
             // btnSalir
             // 
             this.btnSalir.Location = new System.Drawing.Point(772, 535);
-            this.btnSalir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(2);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(236, 54);
             this.btnSalir.TabIndex = 4;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // txtProceso
             // 
@@ -172,9 +173,9 @@
             this.Controls.Add(this.btnDetener);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.dataGridView2);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
-            this.Padding = new System.Windows.Forms.Padding(15, 49, 15, 16);
+            this.Padding = new System.Windows.Forms.Padding(15, 60, 15, 16);
             this.Text = "Administrador de Tareas";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();

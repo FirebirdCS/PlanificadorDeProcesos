@@ -85,5 +85,10 @@ namespace PlanificadorDeProcesos_Grupo_5
                 MessageBox.Show("No se selecciono ningún proceso" + x, "Error al eliminar", MessageBoxButtons.OK);
             }
         }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

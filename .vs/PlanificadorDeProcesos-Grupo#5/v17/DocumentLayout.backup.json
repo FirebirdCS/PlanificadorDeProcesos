@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\git\\UMG\\6to. Semestre\\PlanificadorDeProcesos\\PlanificadorDeProcesos-Grupo#5\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{316F556F-10E1-4BB4-A346-1ED18BAB25B4}|PlanificadorDeProcesos-Grupo#5\\PlanificadorDeProcesos-Grupo#5.csproj|c:\\git\\umg\\6to. semestre\\planificadordeprocesos\\planificadordeprocesos-grupo#5\\planificadordeprocesos-grupo#5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{316F556F-10E1-4BB4-A346-1ED18BAB25B4}|PlanificadorDeProcesos-Grupo#5\\PlanificadorDeProcesos-Grupo#5.csproj|solutionrelative:planificadordeprocesos-grupo#5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{316F556F-10E1-4BB4-A346-1ED18BAB25B4}|PlanificadorDeProcesos-Grupo#5\\PlanificadorDeProcesos-Grupo#5.csproj|c:\\git\\umg\\6to. semestre\\planificadordeprocesos\\planificadordeprocesos-grupo#5\\planificadordeprocesos-grupo#5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{316F556F-10E1-4BB4-A346-1ED18BAB25B4}|PlanificadorDeProcesos-Grupo#5\\PlanificadorDeProcesos-Grupo#5.csproj|solutionrelative:planificadordeprocesos-grupo#5\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\git\\UMG\\6to. Semestre\\PlanificadorDeProcesos\\PlanificadorDeProcesos-Grupo#5\\PlanificadorDeProcesos-Grupo#5\\Form1.cs",
+              "RelativeDocumentMoniker": "PlanificadorDeProcesos-Grupo#5\\Form1.cs",
+              "ToolTip": "C:\\git\\UMG\\6to. Semestre\\PlanificadorDeProcesos\\PlanificadorDeProcesos-Grupo#5\\PlanificadorDeProcesos-Grupo#5\\Form1.cs [Design]",
+              "RelativeToolTip": "PlanificadorDeProcesos-Grupo#5\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T22:39:28.4Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\git\\UMG\\6to. Semestre\\PlanificadorDeProcesos\\PlanificadorDeProcesos-Grupo#5\\PlanificadorDeProcesos-Grupo#5\\Form1.cs",
               "RelativeDocumentMoniker": "PlanificadorDeProcesos-Grupo#5\\Form1.cs",
               "ToolTip": "C:\\git\\UMG\\6to. Semestre\\PlanificadorDeProcesos\\PlanificadorDeProcesos-Grupo#5\\PlanificadorDeProcesos-Grupo#5\\Form1.cs",
               "RelativeToolTip": "PlanificadorDeProcesos-Grupo#5\\Form1.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAcwF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-16T23:16:48.597Z",
               "EditorCaption": ""
