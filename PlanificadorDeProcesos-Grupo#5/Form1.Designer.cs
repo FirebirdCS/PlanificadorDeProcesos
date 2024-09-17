@@ -37,7 +37,7 @@
             this.btnActualizar = new System.Windows.Forms.Button();
             this.btnDetener = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.txtProceso = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.txtContador = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -52,11 +52,12 @@
             this.dgvFisica,
             this.dgvVirtual,
             this.dgvCPU});
-            this.dataGridView2.Location = new System.Drawing.Point(10, 63);
+            this.dataGridView2.Location = new System.Drawing.Point(8, 51);
+            this.dataGridView2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(1367, 567);
+            this.dataGridView2.Size = new System.Drawing.Size(1025, 461);
             this.dataGridView2.TabIndex = 1;
             this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
@@ -97,9 +98,10 @@
             // 
             // btnActualizar
             // 
-            this.btnActualizar.Location = new System.Drawing.Point(37, 659);
+            this.btnActualizar.Location = new System.Drawing.Point(28, 535);
+            this.btnActualizar.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnActualizar.Name = "btnActualizar";
-            this.btnActualizar.Size = new System.Drawing.Size(314, 67);
+            this.btnActualizar.Size = new System.Drawing.Size(236, 54);
             this.btnActualizar.TabIndex = 2;
             this.btnActualizar.Text = "Actualizar";
             this.btnActualizar.UseVisualStyleBackColor = true;
@@ -107,37 +109,42 @@
             // 
             // btnDetener
             // 
-            this.btnDetener.Location = new System.Drawing.Point(395, 659);
+            this.btnDetener.Location = new System.Drawing.Point(296, 535);
+            this.btnDetener.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnDetener.Name = "btnDetener";
-            this.btnDetener.Size = new System.Drawing.Size(314, 67);
+            this.btnDetener.Size = new System.Drawing.Size(236, 54);
             this.btnDetener.TabIndex = 3;
             this.btnDetener.Text = "Detener";
             this.btnDetener.UseVisualStyleBackColor = true;
+            this.btnDetener.Click += new System.EventHandler(this.btnDetener_Click);
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(1029, 659);
+            this.btnSalir.Location = new System.Drawing.Point(772, 535);
+            this.btnSalir.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(314, 67);
+            this.btnSalir.Size = new System.Drawing.Size(236, 54);
             this.btnSalir.TabIndex = 4;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // txtProceso
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(1220, 733);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(14, 16);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "0";
+            this.txtProceso.AutoSize = true;
+            this.txtProceso.Location = new System.Drawing.Point(915, 596);
+            this.txtProceso.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.txtProceso.Name = "txtProceso";
+            this.txtProceso.Size = new System.Drawing.Size(13, 13);
+            this.txtProceso.TabIndex = 5;
+            this.txtProceso.Text = "0";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(1050, 729);
+            this.label2.Location = new System.Drawing.Point(788, 592);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 16);
+            this.label2.Size = new System.Drawing.Size(102, 13);
             this.label2.TabIndex = 6;
             this.label2.Text = "Nombre del proceso";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -145,26 +152,29 @@
             // txtContador
             // 
             this.txtContador.AutoSize = true;
-            this.txtContador.Location = new System.Drawing.Point(76, 748);
+            this.txtContador.Location = new System.Drawing.Point(57, 608);
+            this.txtContador.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.txtContador.Name = "txtContador";
-            this.txtContador.Size = new System.Drawing.Size(44, 16);
+            this.txtContador.Size = new System.Drawing.Size(35, 13);
             this.txtContador.TabIndex = 7;
             this.txtContador.Text = "label3";
             this.txtContador.Click += new System.EventHandler(this.label3_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1391, 784);
+            this.ClientSize = new System.Drawing.Size(1043, 637);
             this.Controls.Add(this.txtContador);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.txtProceso);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnDetener);
             this.Controls.Add(this.btnActualizar);
             this.Controls.Add(this.dataGridView2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
+            this.Padding = new System.Windows.Forms.Padding(15, 49, 15, 16);
             this.Text = "Administrador de Tareas";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
@@ -184,7 +194,7 @@
         private System.Windows.Forms.Button btnActualizar;
         private System.Windows.Forms.Button btnDetener;
         private System.Windows.Forms.Button btnSalir;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label txtProceso;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label txtContador;
     }

@@ -30,3 +30,8 @@ C:\Users\abel1\Desktop\UMG\Sexto semestre\Sistemas Operativos 1\TareasSistOp\Pla
 C:\Users\abel1\Desktop\UMG\Sexto semestre\Sistemas Operativos 1\TareasSistOp\Planificador de procesos\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\Planific.388AF179.Up2Date
 C:\Users\abel1\Desktop\UMG\Sexto semestre\Sistemas Operativos 1\TareasSistOp\Planificador de procesos\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\PlanificadorDeProcesos-Grupo#5.exe
 C:\Users\abel1\Desktop\UMG\Sexto semestre\Sistemas Operativos 1\TareasSistOp\Planificador de procesos\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\PlanificadorDeProcesos-Grupo#5.pdb
+C:\git\UMG\6to. Semestre\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\bin\Debug\MetroFramework.Design.dll
+C:\git\UMG\6to. Semestre\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\bin\Debug\MetroFramework.dll
+C:\git\UMG\6to. Semestre\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\bin\Debug\MetroFramework.Fonts.dll
+C:\git\UMG\6to. Semestre\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\PlanificadorDeProcesos_Grupo_5.Form1.resources
+C:\git\UMG\6to. Semestre\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\Planific.388AF179.Up2Date

@@ -17,6 +17,7 @@ namespace PlanificadorDeProcesos_Grupo_5
         {
             InitializeComponent();
             UpdateProcessList();
+            dataGridView2.SelectionChanged += new EventHandler(dataGridView2_SelectionChanged);
         }
 
         private void UpdateProcessList(){
@@ -46,8 +47,17 @@ namespace PlanificadorDeProcesos_Grupo_5
 
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            txtProceso.Text = dataGridView2.CurrentRow.Cells[0].Value.ToString();
         }
+
+        private void dataGridView2_SelectionChanged(object sender, EventArgs e)
+        {
+            if (dataGridView2.CurrentRow != null && dataGridView2.CurrentRow.Cells[0].Value != null)
+            {
+                txtProceso.Text = dataGridView2.CurrentRow.Cells[0].Value.ToString();
+            }
+        }
+
 
         private void btnActualizar_Click(object sender, EventArgs e)
         {
@@ -57,6 +67,23 @@ namespace PlanificadorDeProcesos_Grupo_5
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnDetener_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                foreach (Process p in Process.GetProcesses())
+                {
+                    if(p.ProcessName == txtProceso.Text)
+                    {
+                        p.Kill();
+                    }
+                }
+            }catch(Exception x)
+            {
+                MessageBox.Show("No se selecciono ningún proceso" + x, "Error al eliminar", MessageBoxButtons.OK);
+            }
         }
     }
 }
