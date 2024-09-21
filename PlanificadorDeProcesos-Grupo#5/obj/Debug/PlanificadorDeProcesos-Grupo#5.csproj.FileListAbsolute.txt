@@ -35,3 +35,17 @@ C:\git\UMG\6to. Semestre\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\P
 C:\git\UMG\6to. Semestre\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\bin\Debug\MetroFramework.Fonts.dll
 C:\git\UMG\6to. Semestre\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\PlanificadorDeProcesos_Grupo_5.Form1.resources
 C:\git\UMG\6to. Semestre\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\Planific.388AF179.Up2Date
+C:\Users\JUAN CARLOS\Desktop\PlanificadorDeProcesos\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\bin\Debug\PlanificadorDeProcesos-Grupo#5.exe.config
+C:\Users\JUAN CARLOS\Desktop\PlanificadorDeProcesos\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\bin\Debug\PlanificadorDeProcesos-Grupo#5.exe
+C:\Users\JUAN CARLOS\Desktop\PlanificadorDeProcesos\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\bin\Debug\PlanificadorDeProcesos-Grupo#5.pdb
+C:\Users\JUAN CARLOS\Desktop\PlanificadorDeProcesos\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\bin\Debug\MetroFramework.Design.dll
+C:\Users\JUAN CARLOS\Desktop\PlanificadorDeProcesos\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\bin\Debug\MetroFramework.dll
+C:\Users\JUAN CARLOS\Desktop\PlanificadorDeProcesos\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\JUAN CARLOS\Desktop\PlanificadorDeProcesos\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\PlanificadorDeProcesos-Grupo#5.csproj.AssemblyReference.cache
+C:\Users\JUAN CARLOS\Desktop\PlanificadorDeProcesos\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\PlanificadorDeProcesos_Grupo_5.Form1.resources
+C:\Users\JUAN CARLOS\Desktop\PlanificadorDeProcesos\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\PlanificadorDeProcesos_Grupo_5.Properties.Resources.resources
+C:\Users\JUAN CARLOS\Desktop\PlanificadorDeProcesos\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\PlanificadorDeProcesos-Grupo#5.csproj.GenerateResource.cache
+C:\Users\JUAN CARLOS\Desktop\PlanificadorDeProcesos\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\PlanificadorDeProcesos-Grupo#5.csproj.CoreCompileInputs.cache
+C:\Users\JUAN CARLOS\Desktop\PlanificadorDeProcesos\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\Planific.388AF179.Up2Date
+C:\Users\JUAN CARLOS\Desktop\PlanificadorDeProcesos\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\PlanificadorDeProcesos-Grupo#5.exe
+C:\Users\JUAN CARLOS\Desktop\PlanificadorDeProcesos\PlanificadorDeProcesos\PlanificadorDeProcesos-Grupo#5\PlanificadorDeProcesos-Grupo#5\obj\Debug\PlanificadorDeProcesos-Grupo#5.pdb
